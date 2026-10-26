@@ -70,7 +70,7 @@ filters.forEach((btn) => {
   btn.addEventListener('click', () => {
     const sector = btn.dataset.filter;
     filters.forEach((b) => b.setAttribute('aria-pressed', b === btn));
-    document.querySelectorAll('.cards .card').forEach((card) => {
+    document.querySelectorAll('[data-sector]').forEach((card) => {
       card.hidden = sector !== 'all' && !card.dataset.sector.split(' ').includes(sector);
     });
   });
@@ -96,7 +96,7 @@ if (form) {
     try {
       const res = await fetch(form.action, { method: 'POST', body: data, headers: { Accept: 'application/json' } });
       if (!res.ok) throw new Error(res.statusText);
-      window.location.href = '/thank-you.html';
+      window.location.href = 'thank-you.html';
     } catch {
       status.textContent = `Something went wrong. Please email ${fallbackEmail} directly.`;
     }

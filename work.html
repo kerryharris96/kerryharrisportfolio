@@ -7,115 +7,244 @@
   <meta name="description" content="Case studies in social media strategy, UGC and creator campaigns, and brand content for Peugeot, Alfa Romeo, Uphold, Small Beer Co and independent businesses.">
   <meta property="og:title" content="Work | Kerry Harris">
   <meta property="og:description" content="Case studies in social media strategy, UGC and creator campaigns, and brand content for Peugeot, Alfa Romeo, Uphold, Small Beer Co and independent businesses.">
-  <meta name="theme-color" content="#090909">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#fdf9f3">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=202610261554">
 </head>
 <body>
 
 <a class="skip" href="#main">Skip to content</a>
 
 <header class="nav">
-  <a class="nav__logo" href="/" aria-label="Kerry Harris, home">Kerry Harris<span>.</span></a>
-  <nav aria-label="Main">
-    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
-    <ul class="nav__links" id="nav-links">
-      <li><a href="/work.html" aria-current="page">Work</a></li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a class="nav__cta" href="/contact.html">Enquire</a></li>
-    </ul>
-  </nav>
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html" aria-label="Kerry Harris, home">
+      <span class="nav__name">Kerry Harris</span>
+      <span class="nav__tag">Social Media Strategist &amp; Community Architect</span>
+    </a>
+    <nav aria-label="Main">
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="work.html" aria-current="page">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="nav__cta" href="contact.html">Enquire</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main id="main">
-  <section class="page-hero">
-    <p class="eyebrow reveal-load">Selected work</p>
-    <h1 class="reveal-load" style="--d:1">Work that earns <em>attention.</em></h1>
-    <p class="page-hero__lede reveal-load" style="--d:2">Launches, UGC campaigns, brand voice and everyday content for global brands and independent businesses, with the results to show for it.</p>
-    <span class="hero__rule" aria-hidden="true"></span>
+  <section class="ed-hero" style="padding-bottom:0">
+    <div class="topbar reveal-load">
+      <div><span class="dot"></span><p class="eyebrow">Selected work</p><span class="faint">/</span><span class="eyebrow faint" style="margin:0">Automotive · Fintech · Hospitality</span></div>
+      <div class="topbar__facts">
+        <span>Flagship reach:</span><strong>126M</strong>
+        <span class="topbar__sep"></span>
+        <span>Disciplines:</span><strong>Community, UGC, Creator campaigns</strong>
+      </div>
+    </div>
   </section>
 
-  <section class="section--tight">
-    <div class="filters" role="group" aria-label="Filter by sector">
-      <button class="filter" data-filter="all" aria-pressed="true">All</button>
-      <button class="filter" data-filter="automotive" aria-pressed="false">Automotive</button>
-      <button class="filter" data-filter="fintech" aria-pressed="false">Fintech &amp; crypto</button>
-      <button class="filter" data-filter="hospitality" aria-pressed="false">Hospitality &amp; independent</button>
+  <section style="padding-top:clamp(40px,5vw,64px)">
+    <div class="ed-hero__grid">
+      <div>
+        <p class="eyebrow eyebrow--rule reveal-load">Case studies</p>
+        <h1 class="reveal-load" style="--d:1;font-size:clamp(2.6rem,5.5vw,3.5rem);line-height:1.08;letter-spacing:-.02em;margin-top:1rem">Commercial impact &amp; cultural resonance.</h1>
+      </div>
+      <p class="lede reveal-load" style="--d:2;margin:0">Over six years of platform-native campaigns that turn attention into community and measurable brand growth.</p>
     </div>
+    <div class="filter-bar">
+      <div class="filters" role="group" aria-label="Filter by sector">
+        <button class="filter" data-filter="all" aria-pressed="true">All (05)</button>
+        <button class="filter" data-filter="automotive" aria-pressed="false">Automotive</button>
+        <button class="filter" data-filter="fintech" aria-pressed="false">Fintech &amp; crypto</button>
+        <button class="filter" data-filter="hospitality" aria-pressed="false">Hospitality &amp; independent</button>
+      </div>
+      <span class="eyebrow faint" style="margin:0">Results shown are from the campaigns themselves</span>
+    </div>
+  </section>
 
-    <div class="cards">
-      <a class="card reveal" data-sector="automotive" href="/work/alfa-romeo.html">
-        <div class="card__media"><div class="ph" data-label="Alfa Romeo · UGC campaign"></div></div>
-        <p class="card__tag">Alfa Romeo · UGC campaign</p>
-        <h2 class="card__title">#WinAlfaRomeoF1Merch</h2>
-        <p class="card__result">+90% engagement during the campaign</p>
-      </a>
-      <a class="card reveal" data-sector="automotive" href="/work/peugeot.html">
-        <div class="card__media"><div class="ph" data-label="Peugeot · Outernet London"></div></div>
-        <p class="card__tag">Peugeot · Launch campaign · 2023</p>
-        <h2 class="card__title">Inception Concept at Outernet London</h2>
-        <p class="card__result">126M total campaign reach</p>
-      </a>
-      <a class="card reveal" data-sector="fintech" href="/work/uphold.html">
-        <div class="card__media"><div class="ph" data-label="Uphold · Social & brand voice"></div></div>
-        <p class="card__tag">Uphold · Fintech &amp; crypto</p>
-        <h2 class="card__title">Social growth &amp; brand voice</h2>
-        <p class="card__result">50K to 140K+ social audience</p>
-      </a>
-      <a class="card reveal" data-sector="hospitality" href="/work/small-beer-co.html">
-        <div class="card__media"><div class="ph" data-label="Small Beer Co · Reels"></div></div>
-        <p class="card__tag">Small Beer Co · Content &amp; awareness</p>
-        <h2 class="card__title">Short-form content with a purpose</h2>
-        <p class="card__result">Reels, local engagement &amp; brand content</p>
-      </a>
-      <a class="card reveal" data-sector="hospitality fintech" href="/work/freelance.html">
-        <div class="card__media"><div class="ph" data-label="Freelance · Posters & calendars"></div></div>
-        <p class="card__tag">Freelance clients</p>
-        <h2 class="card__title">Creative marketing in action</h2>
-        <p class="card__result">The Rake, The Old Tigers Head, Puzzle Tree Alpacas, BPMWallet</p>
-      </a>
+  <section class="projects">
+    <article class="project reveal" data-sector="automotive">
+      <div class="media">
+        <div class="ph" data-label="Alfa Romeo · fan UGC entries"></div>
+        <span class="media__tag chip chip--glass">Automotive</span>
+        <span class="media__badge">UGC campaign</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta"><span>UK social · Community</span><span>01 / 05</span></div>
+        <h2>Alfa Romeo</h2>
+        <p class="project__sub">#WinAlfaRomeoF1Merch UGC campaign</p>
+        <p>Fans were active on fan-run pages rather than official channels. An F1-themed UGC competition, with Instagram Story polls, Facebook voting and fan-page partnerships, brought that community back to the brand.</p>
+        <div class="project__metrics project__metrics--2">
+          <div class="metric"><span class="metric__num">+52%</span><span class="metric__label">Impressions</span></div>
+          <div class="metric"><span class="metric__num">+90%</span><span class="metric__label">Engagement</span></div>
+        </div>
+        <div class="project__cta">
+          <a class="arrow-link" href="work/alfa-romeo.html">Read case study <span class="circle" aria-hidden="true">→</span></a>
+          <span>Motorsport · UGC</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project project--flip reveal" data-sector="automotive">
+      <div class="media">
+        <div class="ph" data-label="Peugeot · Outernet London"></div>
+        <span class="media__tag chip chip--glass">Automotive</span>
+        <span class="media__badge">Immersive launch</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta"><span>Launch · Experiential</span><span>02 / 05</span></div>
+        <h2>Peugeot</h2>
+        <p class="project__sub">Inception Concept at Outernet London, 2023</p>
+        <p>Social strategy built into the Outernet Cube experience so it was designed for content creation, with phone photography workshops for visitors and creator content amplified across Instagram and YouTube.</p>
+        <div class="project__metrics project__metrics--3">
+          <div class="metric"><span class="metric__num">126M</span><span class="metric__label">Total reach</span></div>
+          <div class="metric"><span class="metric__num">11.4M</span><span class="metric__label">Impressions</span></div>
+          <div class="metric"><span class="metric__num">76K+</span><span class="metric__label">Visitors</span></div>
+        </div>
+        <div class="project__cta">
+          <a class="arrow-link" href="work/peugeot.html">Read case study <span class="circle" aria-hidden="true">→</span></a>
+          <span>Experiential · London</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project reveal" data-sector="fintech">
+      <div class="media">
+        <div class="ph" data-label="Uphold · social content"></div>
+        <span class="media__tag chip chip--glass">Fintech &amp; crypto</span>
+        <span class="media__badge">Reputation turnaround</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta"><span>Brand voice · Trust</span><span>03 / 05</span></div>
+        <h2>Uphold</h2>
+        <p class="project__sub">Social growth &amp; brand voice</p>
+        <p>A clear, human tone of voice across every platform, a trained community and support team, co-marketing partnerships and a weekly Twitter Spaces podcast, helping rebuild trust in a sceptical market.</p>
+        <div class="project__metrics">
+          <div class="metric-row"><span>Social audience</span><strong>50K → 140K+</strong></div>
+          <div class="metric-row"><span>Trustpilot rating</span><span><s>1.2★</s><strong>3.2★</strong></span></div>
+          <div class="metric-row"><span>iOS App Store rating</span><span><s>2★</s><strong>4.5★</strong></span></div>
+        </div>
+        <div class="project__cta">
+          <a class="arrow-link" href="work/uphold.html">Read case study <span class="circle" aria-hidden="true">→</span></a>
+          <span>Fintech · Reputation</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project project--flip reveal" data-sector="hospitality">
+      <div class="media">
+        <div class="ph" data-label="Small Beer Co · Reels"></div>
+        <span class="media__tag chip chip--glass">Hospitality &amp; independent</span>
+        <span class="media__badge">Short-form video</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta"><span>Content · Awareness</span><span>04 / 05</span></div>
+        <h2>Small Beer Co</h2>
+        <p class="project__sub">Short-form Reels for the original mid-strength brewers</p>
+        <p>Personality-led Reels ("How to pour the perfect pint", "Have you ever…" and "Why settle") that put the brewery team in front of the camera and gave people a reason to try mid-strength beer.</p>
+        <!-- Add view, save or traffic figures here once you have numbers you can back up -->
+        <div class="project__cta" style="margin-top:24px">
+          <a class="arrow-link" href="work/small-beer-co.html">Read case study <span class="circle" aria-hidden="true">→</span></a>
+          <span>Beverage · Video</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project reveal" data-sector="hospitality fintech">
+      <div class="media">
+        <div class="ph" data-label="Freelance · posters, Reels & content"></div>
+        <span class="media__tag chip chip--glass">Hospitality &amp; independent</span>
+        <span class="media__badge">Freelance</span>
+      </div>
+      <div class="project__body">
+        <div class="project__meta"><span>Freelance clients · Since 2024</span><span>05 / 05</span></div>
+        <h2>Independent brands &amp; startups</h2>
+        <p class="project__sub">The Old Tigers Head, The Rake, Puzzle Tree Alpacas &amp; BPMWallet</p>
+        <p>Full-funnel social strategies, content calendars, short-form video, posters and campaigns for founder-led businesses in hospitality, fintech and retail.</p>
+        <div class="client-chips">
+          <div><strong>The Old Tigers Head</strong><span>Pub &amp; restaurant</span></div>
+          <div><strong>The Rake</strong><span>Hospitality</span></div>
+          <div><strong>Puzzle Tree Alpacas</strong><span>Experiences</span></div>
+          <div><strong>BPMWallet</strong><span>Fintech</span></div>
+        </div>
+        <div class="project__cta">
+          <a class="arrow-link" href="work/freelance.html">Read case study <span class="circle" aria-hidden="true">→</span></a>
+          <span>Startups · Community</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="philosophy reveal">
+      <div>
+        <p class="eyebrow">My approach</p>
+        <h3>Precision over noise</h3>
+        <p>Every project starts with the audience, not vanity metrics. Success is measured in growth, trust and attention that lasts.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card"><strong>Platform-native</strong><p>Content made for each platform, never copy-and-pasted across channels.</p></div>
+        <div class="card"><strong>Community-led</strong><p>UGC, creators and two-way engagement that turn followers into fans.</p></div>
+        <div class="card"><strong>Data-led</strong><p>Performance insight turned into action, so content keeps improving.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="card cta-bar reveal">
+      <div>
+        <h3>Looking for steady growth for your brand?</h3>
+        <p>Taking on monthly retainers and campaign projects.</p>
+      </div>
+      <div class="btns">
+        <a class="btn btn--soft" href="services.html">View services</a>
+        <a class="btn btn--accent" href="contact.html">Start a brief</a>
+      </div>
     </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="footer__cta">
-    <p>Let's build something <em>brilliant.</em></p>
-    <a class="btn btn--gold" href="/contact.html">Enquire about a project</a>
-  </div>
-  <div class="footer__cols">
-    <div>
-      <p class="footer__brand">Kerry Harris<span>.</span></p>
-      <p class="muted">Social media strategy, creator campaigns and community-led content.</p>
+  <div class="footer__inner">
+    <div class="footer__grid">
+      <div>
+        <p class="eyebrow">Let&#39;s talk</p>
+        <p class="footer__title">Let&#39;s build something brilliant together.</p>
+        <p class="footer__desc">Social media strategy, creator campaigns and community-led content for ambitious brands, founders and independent businesses.</p>
+      </div>
+      <div>
+        <p class="footer__head">Get in touch</p>
+        <ul class="footer__list">
+          <li><a href="mailto:kerryharris96@gmail.com">kerryharris96@gmail.com</a></li>
+          <li><a href="tel:+447817303226">+44 7817 303226</a></li>
+          <li><a href="https://www.linkedin.com/in/kerry-harris-9aa0041a2/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__head">Explore</p>
+        <ul class="footer__list">
+          <li><a href="work.html">Selected work</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Start a project</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <p class="footer__head">Explore</p>
-      <ul>
-        <li><a href="/work.html">Work</a></li>
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
+    <div class="footer__bottom">
+      <div class="footer__legal">
+        <p>© <span data-year>2026</span> Kerry Harris. All rights reserved.</p>
+        <a href="privacy.html">Privacy</a>
+      </div>
+      <a class="footer__social" href="https://www.linkedin.com/in/kerry-harris-9aa0041a2/" target="_blank" rel="noopener">LinkedIn</a>
     </div>
-    <div>
-      <p class="footer__head">Get in touch</p>
-      <ul>
-        <li><a href="mailto:kerryharris96@gmail.com">kerryharris96@gmail.com</a></li>
-        <li><a href="tel:+447817303226">+44 7817 303226</a></li>
-        <li><a href="https://www.linkedin.com/in/kerry-harris-9aa0041a2/" target="_blank" rel="noopener">LinkedIn</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer__legal">
-    <p>© <span data-year>2026</span> Kerry Harris</p>
-    <a href="/privacy.html">Privacy policy</a>
   </div>
 </footer>
 
-<script src="/main.js" defer></script>
+<script src="main.js?v=202610261554" defer></script>
 </body>
 </html>
