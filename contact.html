@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Kerry Harris</title>
+  <meta name="description" content="Tell me about your business and what you want social media to do for it.">
+  <meta property="og:title" content="Contact | Kerry Harris">
+  <meta property="og:description" content="Tell me about your business and what you want social media to do for it.">
+  <meta name="theme-color" content="#090909">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="no-footer-cta">
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="nav__logo" href="/" aria-label="Kerry Harris, home">Kerry Harris<span>.</span></a>
+  <nav aria-label="Main">
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="/work.html">Work</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a class="nav__cta" href="/contact.html" aria-current="page">Enquire</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <p class="eyebrow reveal-load">Contact</p>
+    <h1 class="reveal-load" style="--d:1">Let's build something <em>brilliant.</em></h1>
+    <p class="page-hero__lede reveal-load" style="--d:2">Ready to grow your brand on socials? Tell me about your business and what you want social to do for it. I'll reply within two working days.</p>
+  </section>
+
+  <section class="contact">
+    <div>
+      <ul class="contact__list">
+        <li><span>Email</span><a href="mailto:kerryharris96@gmail.com">kerryharris96@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+447817303226">+44 7817 303226</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/kerry-harris-9aa0041a2/" target="_blank" rel="noopener">Kerry Harris</a></li>
+        <!-- Optional: <li><span>Book</span><a href="https://calendly.com/your-link" target="_blank" rel="noopener">Book a discovery call</a></li> -->
+      </ul>
+      <h2>What happens next</h2>
+      <ol class="next-steps">
+        <li>I'll read your enquiry and reply within two working days.</li>
+        <li>We'll book a short, no-obligation discovery call.</li>
+        <li>I'll send a clear proposal and quote.</li>
+      </ol>
+    </div>
+
+    <!-- Point `action` at a Formspree (or similar) endpoint. Until then, submitting opens an email draft. -->
+    <form class="form" id="enquiry" action="" method="POST" data-email="kerryharris96@gmail.com">
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="f-company">Business / brand</label>
+        <input id="f-company" name="company" autocomplete="organization">
+      </div>
+      <div class="field">
+        <label for="f-service">What do you need?</label>
+        <select id="f-service" name="service">
+          <option>Social media management (monthly)</option>
+          <option>Content &amp; creative campaign</option>
+          <option>Marketing strategy &amp; setup</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="field field--full">
+        <label for="f-message">Tell me about the project</label>
+        <textarea id="f-message" name="message" rows="6" required></textarea>
+      </div>
+      <p class="form__small">Your details are only used to reply to your enquiry. See the <a href="/privacy.html">privacy policy</a>.</p>
+      <button class="btn btn--gold" type="submit">Send enquiry</button>
+      <p class="form__status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__cta">
+    <p>Let's build something <em>brilliant.</em></p>
+    <a class="btn btn--gold" href="/contact.html">Enquire about a project</a>
+  </div>
+  <div class="footer__cols">
+    <div>
+      <p class="footer__brand">Kerry Harris<span>.</span></p>
+      <p class="muted">Social media strategy, creator campaigns and community-led content.</p>
+    </div>
+    <div>
+      <p class="footer__head">Explore</p>
+      <ul>
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer__head">Get in touch</p>
+      <ul>
+        <li><a href="mailto:kerryharris96@gmail.com">kerryharris96@gmail.com</a></li>
+        <li><a href="tel:+447817303226">+44 7817 303226</a></li>
+        <li><a href="https://www.linkedin.com/in/kerry-harris-9aa0041a2/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__legal">
+    <p>© <span data-year>2026</span> Kerry Harris</p>
+    <a href="/privacy.html">Privacy policy</a>
+  </div>
+</footer>
+
+<script src="/main.js" defer></script>
+</body>
+</html>
